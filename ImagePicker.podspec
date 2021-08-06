@@ -32,11 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'ImagePicker/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'ImagePicker' => ['ImagePicker/Assets/*.png']
-  # }
+  s.resource_bundles = {'ImagePicker' => ['ImagePicker/Assets/*.png']}
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
